@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+  
+  body{
+    background-color: #b5aee5;
+     }
+
+     header{
+padding: 32px;
+border-bottom:1px solid #a282ed;
+background-color: rgb(123, 109, 227);
+     }
+     header div 
+     {
+text-align: center;
+     }
+header div a {
+color: rgb(255, 255, 255);
+font-size: 20px;
+line-height: 30px;
+margin: 0 16px;
+text-decoration: none;
+font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  transition:color 1000ms;
+        }
+       header div a:hover{
+            color: rgb(17, 0, 100);  
+            transition: color 1000ms; 
+            font-size: 22px;
+
+       }
