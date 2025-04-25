@@ -37,3 +37,32 @@ font-family: "Winky Rough", sans-serif;
             font-size: 22px;
 
        }
+       #box {
+text-align: center;
+padding: 32px;
+
+       }
+       #box img{ 
+border-radius: 50%;
+border: 3px solid #ed82dd;
+margin-bottom: 32px;
+       }
+       #box h1{ 
+font-size: 42px;
+line-height: 52px;
+font-weight: bold;
+
+       }
+       #box h2{
+font-size: 24px;
+line-height: 34px;
+font-weight: normal;
+margin-top: 8px;
+opacity: 0.8;
+       }
+#box p{
+max-width: 500px;
+margin: 32px auto;
+font-size: 24px;
+line-height: 34px;
+}
